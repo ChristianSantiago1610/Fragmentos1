@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B0FF"
+    tools:context=".TercerFragment">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tercer Fragment"
+        android:textAlignment="center"
+        android:textColor="#FF3D00"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="150sp"
+        android:text="Info:"
+        android:textAlignment="center"
+        android:textColor="#FF1744"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185sp"
+        android:text="Christian  Santiago"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvLic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="219sp"
+        android:text="Lic. Ti"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="254sp"
+        android:text="214013156"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvMate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="289sp"
+        android:text="Tópicos selectos de TI 1"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+</FrameLayout>
